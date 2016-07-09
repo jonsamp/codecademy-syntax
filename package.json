@@ -1,0 +1,18 @@
+{
+  "name": "codecademy-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Codecademy Syntax theme",
+  "keywords": [
+    "codecademy",
+    "codeacademy",
+    "codecademy.com",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/codecademy-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

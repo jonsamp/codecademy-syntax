@@ -1,0 +1,47 @@
+.ruby {
+  &.source {
+    color: @hue-2;
+  }
+
+  &.entity.name.type.class {
+    color: @hue-5;
+  }
+
+  &.entity.other.inherited-class {
+    color: @hue-5;
+  }
+
+  &.variable.other {
+    color: @hue-3;
+  }
+
+  &.support.class {
+    color: @hue-5;
+  }
+
+  .constant {
+    &.other.symbol {
+      color: @hue-1-2;
+    }
+  }
+
+  .punctuation {
+    color: white;
+
+    &.definition.constant {
+      color: @hue-1-2;
+    }
+
+    &.definition.variable {
+      color: @hue-3;
+    }
+
+    &.definition.comment{
+      color: @grey4;
+    }
+  }
+
+  &.keyword.other {
+    color: @hue-1;
+  }
+}

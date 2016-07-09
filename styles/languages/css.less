@@ -1,0 +1,18 @@
+.css {
+  color: white;
+
+  &.string.quoted {
+    color: @hue-4;
+  }
+
+  &.variable {
+    &.less,
+    &.scss {
+      color: @hue-3;
+    }
+
+    &.parameter.misc {
+      color: @hue-4;
+    }
+  }
+}
