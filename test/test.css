@@ -1,85 +1,64 @@
-html,
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  min-height: 50vh;
+  font-size: 22px;
+  background-color: #204056;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  margin: auto;
+  margin-top: 8rem;
+  max-width: 40rem;
 }
 
-.container {
-  max-width: 940px;
+.code {
+  font-family: monospace;
+  background-color: #336180;
+  padding: 0.4rem 0.75rem;
+  font-size: 1.375rem;
+  border-radius: 0.15em;
 }
 
-.header {
-  background-color: #33637E;
-  margin: 0 auto;
+.code-block {
+  font-family: monaco, Consolas, "Lucida Console";
+  background-color: #336180;
+  padding: 0.5em 0.75em;
+  font-size: 1.15rem;
+  border-radius: 0.15rem;
+  display: block;
+  margin: 1em 0;
 }
 
-.nav {
-  text-align: center;
-  width: 100%;
-  display: table;
-}
-
-.nav li {
-  display: inline;
-  background-color: #33637E;
-  display: table-cell;
-  width: auto;
-  text-align: center;
-}
-
-.nav li a {
-  color: #fff;
-  padding: .7em 2em;
-}
-
-.nav li:nth-child(3) {
-  background-color: #E42966;
-  font-size: 1.5em;
-}
-
-.nav li:nth-child(3):hover {
-  background-color: #E42966;
-  font-size: 1.5em;
-}
-
-.nav li:hover {
-  background-color: #E42966;
-}
-
-.nav>li>a:hover {
-  background-color: #E42966;
-}
-
-.jumbotron {
-  height: 500px;
-  background: url(http://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.jumbotron h1 {
-  text-align: center;
-  color: #E42966;
-  font-weight: 600;
-}
-
-.supporting {
-  text-align: center;
-  margin-bottom: 5em;
-}
-
-.btn {
-  border: 1px solid #33637E;
-  padding: .5em 5em;
+.tip-number {
+  margin: auto;
+  margin-bottom: 2.5rem;
+  color: #CCCCCC;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  font-size: 1em;
 }
 
-.footer {
-  background-color: #e52364;
-  padding: 2em;
-  color: #fff;
+#jsTip {
+  margin: auto;
+  line-height: 2em;
+  font-weight: 300;
+  font-size: 1.375rem
 }
 
-.footer a {
-  color: #fff;
+#tipButton {
+  background-color: #34B3A0;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  margin: auto;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.disabled {
+  background-color: #D8D8D8 !important;
+  color: #888;
+  cursor: not-allowed !important;
 }
