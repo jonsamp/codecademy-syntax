@@ -1,8 +1,8 @@
 {
-  "name": "codecademy-syntax",
+  "name": "codecademy-syntax-theme",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "Codecademy Syntax theme",
+  "description": "Codecademy syntax theme.",
   "keywords": [
     "codecademy",
     "codeacademy",
@@ -10,7 +10,13 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/codecademy-syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonsamp/codecademy-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/jonsamp/codecademy-syntax/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

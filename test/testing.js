@@ -13,6 +13,11 @@ function dragonBattle() {
         return (Math.floor(Math.random() * a) + b);
     }
 
+
+
+
+
+
     function randomResponse(prefix, responseNumber) {
         var i = randomNumber(responseNumber, 0);
         response = prefix[i];
@@ -26,6 +31,7 @@ function dragonBattle() {
         return health + "%";
     }
 
+    // Battle Round Summary
     function roundSummary(youHit, response, dragonDamage, playerDamage, dragonHealth, playerHealth) {
         if (dragonHealth < 0) {
             dragonHealth = 0;
