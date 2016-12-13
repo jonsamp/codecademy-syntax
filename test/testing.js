@@ -13,11 +13,6 @@ function dragonBattle() {
         return (Math.floor(Math.random() * a) + b);
     }
 
-
-
-
-
-
     function randomResponse(prefix, responseNumber) {
         var i = randomNumber(responseNumber, 0);
         response = prefix[i];

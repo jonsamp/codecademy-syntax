@@ -22,4 +22,4 @@ The doctors exchanged a look when he shook his head.
 
 > 'Give him another pill.'
 
-...
+...to be continued.
