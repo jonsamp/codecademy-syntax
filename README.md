@@ -1,6 +1,6 @@
 # Codecademy Syntax Theme
 
-Codecademy syntax colors for Atom.
+Codecademy syntax colors for Atom Editor.
 
 ![Screenshot 1](https://dl.dropboxusercontent.com/s/xxs4k66o33mtqjm/codecademy-syntax-js.png)
 
