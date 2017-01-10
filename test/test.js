@@ -1,3 +1,8 @@
+var person = {
+  name: 'Jon',
+  age: 27
+}
+
 function dragonBattle() {
     var slaying = true;
     var dragonHealth = 20;
