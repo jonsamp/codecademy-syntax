@@ -1,80 +1,61 @@
-.markup {
-  &.bold {
-    font-weight: bold;
-  }
+.syntax--markup,
+.syntax--gfm {
+  color: white;
 
-  &.changed {
+  &.syntax--bold {
+    font-weight: bold;
     color: @hue-1;
   }
 
-  &.deleted {
+  &.syntax--changed {
+    color: @hue-1;
+  }
+
+  &.syntax--deleted {
     color: @hue-5-2;
   }
 
-  &.italic {
+  &.syntax--italic {
     font-style: italic;
+    color: @hue-1;
   }
 
-  &.heading .punctuation.definition.heading {
-    color: @blue-1;
+  &.syntax--raw {
+    color: @hue-4;
   }
 
-  &.inserted {
-    color: @hue-6;
-  }
-
-  &.list {
-    color: @hue-5-2;
-  }
-
-  &.quote {
+  &.syntax--heading {
     color: @hue-3;
   }
 
-  &.raw.inline {
+  &.syntax--inserted {
     color: @hue-6;
   }
-}
 
-.markup.underline.link {
-  color: @hue-3;
-  text-decoration: underline;
-}
+  &.syntax--list {
+    color: @hue-5-2;
+  }
 
-.gfm {
-  color: white;
-
-  &.constant.character.escape {
+  &.syntax--quote {
     color: @hue-2;
   }
 
-  &.comment.quote{
-    color: @hue-2-2;
+  &.syntax--raw.syntax--inline {
+    color: @hue-6;
   }
 
-  &.support.quote{
-    color: @hue-2-2;
+  &.syntax--link {
+    color: @hue-3;
+    text-decoration: underline;
   }
 
-  .markup {
-    -webkit-font-smoothing: auto;
-
-    &.heading {
+  &.syntax--variable {
+    &.syntax--ordered.syntax--list.syntax--gfm {
       color: @hue-3;
     }
 
-    &.raw {
-      color: @hue-4;
+    &.syntax--unordered.syntax--list.syntax--gfm {
+      color: @hue-3;
     }
-  }
-}
-
-.variable {
-  &.ordered.list.gfm {
-    color: @hue-3;
-  }
-
-  &.unordered.list.gfm {
-    color: @hue-3;
   }
 }

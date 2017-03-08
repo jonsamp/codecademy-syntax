@@ -1,5 +1,3 @@
-
-
 # Catch-22
 
 By: Joseph Heller
@@ -12,7 +10,7 @@ The first time Yossarian saw the chaplain he fell _madly_ in love with him. Yoss
 
 Each morning they came around, three brisk and serious men with efficient mouths
 and inefficient eyes, accompanied by brisk and serious Nurse Duckett, one of the
-ward nurses who **didn't like** Yossarian.
+ward nurses who **didn't like** [Yossarian](https://google.com).
 
 They read the chart at the foot of the bed and asked impatiently about the pain. They seemed irritated when he told them it was exactly the same.
 
@@ -23,3 +21,7 @@ The doctors exchanged a look when he shook his head.
 > 'Give him another pill.'
 
 ...to be continued.
+
+## Chapter 2 - The programmer
+
+You can make an inline variable with back ticks, like so: `lovelace`.
