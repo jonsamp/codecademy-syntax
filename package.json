@@ -1,8 +1,8 @@
 {
   "name": "codecademy-syntax-theme",
   "theme": "syntax",
-  "version": "1.0.1",
-  "description": "Codecademy syntax theme.",
+  "version": "0.5.0",
+  "description": "Official Codecademy syntax theme.",
   "keywords": [
     "codecademy",
     "codeacademy",
