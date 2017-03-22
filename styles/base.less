@@ -4,6 +4,10 @@ atom-text-editor {
   background-color: @blue-3;
   color: white;
 
+  .syntax--meta.syntax--paragraph.syntax--text {
+    color: white;
+  }
+
   .is-focused .line.cursor-line {
     background-color: rgba(101, 115, 126, 0.1);
   }
@@ -242,16 +246,6 @@ atom-text-editor[mini] .scroll-view {
 
     &.syntax--tag {
       color: @hue-5;
-    }
-
-    &.syntax--bold {
-      color: @hue-1;
-      font-weight: bold;
-    }
-
-    &.syntax--italic {
-      color: @hue-1;
-      font-style: italic;
     }
 
     &.syntax--entity {
