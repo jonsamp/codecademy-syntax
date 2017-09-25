@@ -8,3 +8,6 @@
 
 ## 0.4.0
 * Makes JavaScript object keys teal
+
+## 1.1.3
+* Improves ruby syntax highlighting
