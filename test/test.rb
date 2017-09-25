@@ -1,4 +1,20 @@
 # Todo List Classes
+
+class Person
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  def greet
+    puts "Hi, my name is #{@name}"
+  end
+
+end
+
+me = Person.new("Jon", 28)
+me.greet
+
 class List
 	def initialize
 		@all_tasks = []

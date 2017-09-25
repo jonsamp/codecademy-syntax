@@ -2,6 +2,7 @@
   "name": "codecademy-syntax-theme",
   "theme": "syntax",
   "version": "1.1.2",
+  "author": "Jon Samp <jon@codecademy.com>",
   "description": "Official Codecademy syntax theme.",
   "keywords": [
     "codecademy",
