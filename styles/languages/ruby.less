@@ -1,50 +1,46 @@
 .syntax--ruby {
-  &.syntax--source {
-    color: @hue-3;
+  color: white;
+
+  .syntax--source {
+    color: white;
   }
 
-  &.syntax--entity.syntax--function {
+  .syntax--entity.syntax--function {
     color: @hue-1;
   }
 
-  &.syntax--constant {
-    &.syntax--variable.syntax--other {
+  .syntax--constant {
+    .syntax--variable.syntax--other {
       color: @hue-5-2;
     }
   }
 
-  &.syntax--variable.syntax--parameter {
+  .syntax--variable.syntax--parameter {
     color: @hue-3;
   }
 
-  &.syntax--punctuation.syntax--embedded {
-    &.syntax--begin {
-      color: white;
-    }
-
-    &.syntax--end {
-      color: white;
-    }
+  .syntax--punctuation.syntax--embedded {
+    color: @hue-4;
   }
 
-  &.syntax--entity.syntax--name.syntax--type.syntax--class {
+  .syntax--entity.syntax--name.syntax--type.syntax--class {
     color: @hue-5;
   }
 
-  &.syntax--entity.syntax--other.syntax--inherited-class {
+  .syntax--entity.syntax--other.syntax--inherited-class {
     color: @hue-5;
   }
 
-  &.syntax--variable.syntax--other {
+  .syntax--variable.syntax--other {
     color: @hue-3;
   }
 
-  &.syntax--support.syntax--class {
+  .syntax--support.syntax--class {
     color: @hue-5;
   }
 
   .syntax--constant {
-    &.syntax--other.syntax--symbol {
+    .syntax--other.syntax--symbol {
       color: @hue-1-2;
     }
   }
@@ -52,28 +48,28 @@
   .syntax--punctuation {
     color: white;
 
-    &.syntax--definition.syntax--constant {
+    .syntax--definition.syntax--constant {
       color: @hue-1-2;
     }
 
-    &.syntax--definition.syntax--variable {
+    .syntax--definition.syntax--variable {
       color: @hue-3;
     }
 
-    &.syntax--definition.syntax--comment {
+    .syntax--definition.syntax--comment {
       color: @grey4;
     }
   }
 
-  &.syntax--keyword.syntax--other.syntax--special-method {
+  .syntax--keyword.syntax--other.syntax--special-method {
     color: @hue-2;
   }
 
-  &.syntax--with-arguments {
+  .syntax--with-arguments {
     color: white;
   }
 
-  &.syntax--name {
+  .syntax--name {
     color: @hue-2;
   }
 }
